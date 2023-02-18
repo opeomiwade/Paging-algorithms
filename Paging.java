@@ -1,5 +1,4 @@
 //
-
 // Time Complexity and explanation: You can use the following variables for easier reference.
 // n denotes the number of requests, p denotes the size of the cache
 // n and p can be different and there is no assumption which one is larger
@@ -18,7 +17,7 @@ there is an if else block.in the worst case for that algorithm the if block is e
 an external method updatepositions is called which has a time complexity of 'np' and after this method is called there is a while loop which runs a total of p
 times but as it is in the outer for loop which runs n times the while loop has a time complexity 'np' also.multiply everything and thats how i got O(np)^3*/
 
-class COMP108A1Paging {
+class Paging {
 	// no eviction
 	// Aim:
 	// do not evict any page
@@ -309,4 +308,3 @@ then finally the miss count is increased and an m added to the miss pattern.*/
 	}
 
 }
-
